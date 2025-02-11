@@ -6,7 +6,10 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 import os
 
+# Set environment variables
 os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+
+
 # Initialize the Google Generative AI model
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 

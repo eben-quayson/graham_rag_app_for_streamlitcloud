@@ -5,5 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "langchain>=0.3.18",
+    "langchain-chroma>=0.2.1",
+    "langchain-community>=0.3.17",
+    "langchain-google-genai>=2.0.9",
     "streamlit>=1.42.0",
 ]
